@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: rgb(236, 232, 232);
+    max-width: 850px;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+h1 {
+    padding: 45px 90px 5px 90px;
+    font-size: 25px;
+}
+
+h2 {
+    padding: 5px 90px 45px 90px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.face {
+    max-width: 300px;
+    margin: auto;
+}
+
+.name input {
+    display: block;
+    margin-bottom: 15px;
+    padding: 8px;
+    width: 100%;
+    color: rgba(128, 128, 128, 0.61);
+    border: 1px solid rgba(128, 128, 128, 0.61);
+}
+
+.name input:focus {
+    outline: none;
+}
+
+.face p {
+    color: rgb(104, 101, 101);
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+
+.date,
+.month,
+.year {
+    padding: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.61);
+    color: rgb(104, 101, 101);
+}
+
+.date {
+    width: 26.5%;
+}
+
+.month {
+    width: 44%;
+}
+
+.year {
+    width: 26.5%;
+}
+
+.green {
+    background-color: rgb(31, 160, 95);
+    border: none;
+    cursor: pointer;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.or {
+    padding: 10px;
+    text-align: center;
+}
+
+.or::before {
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 2px;
+    background-image: linear-gradient(to top, rgb(252, 247, 247), rgb(194, 189, 189), rgb(252, 247, 247));
+    margin-right: 30px;
+    vertical-align: middle;
+}
+
+.or::after {
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 2px;
+    background-image: linear-gradient(to top, rgb(252, 247, 247), rgb(194, 189, 189), rgb(252, 247, 247));
+    margin-left: 30px;
+    vertical-align: middle;
+}
+
+button {
+    border: none;
+    width: 100%;
+    color: white;
+    background-color: rgb(62, 62, 211);
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 5px;
+}
