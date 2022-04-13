@@ -57,6 +57,7 @@ h2 {
     padding: 5px;
     border: 1px solid rgba(128, 128, 128, 0.61);
     color: rgb(104, 101, 101);
+    margin-bottom: 20px;
 }
 
 .date {
@@ -72,20 +73,20 @@ h2 {
 }
 
 .green {
-    background-color: rgb(31, 160, 95);
     border: none;
-    cursor: pointer;
     color: white;
-    width: 100%;
-    padding: 10px;
-    margin-top: 20px;
-    font-size: 15px;
+    background-color: rgb(31, 160, 95);
+    padding: 10px 81px;
+    font-size: 14px;
     font-weight: 700;
+    text-decoration: none;
 }
 
 .or {
     padding: 10px;
     text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .or::before {
@@ -108,13 +109,12 @@ h2 {
     vertical-align: middle;
 }
 
-button {
+.facebook {
     border: none;
-    width: 100%;
     color: white;
     background-color: rgb(62, 62, 211);
-    padding: 10px;
+    padding: 10px 67px;
     font-size: 14px;
     font-weight: 700;
-    margin-top: 5px;
+    text-decoration: none;
 }
